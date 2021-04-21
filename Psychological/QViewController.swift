@@ -25,7 +25,7 @@ class QViewController: UIViewController {
         else{
             nowNum = questions[nowNum].noQuestion - 1
         }
-        if nowNum < 21 {
+        if nowNum < 20 {
             Qlabel.text = questions[nowNum].description
         }
         else{
